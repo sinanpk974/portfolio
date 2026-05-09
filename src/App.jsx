@@ -7,6 +7,7 @@ import About from './components/About'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 import {BrowserRouter,Routes,Route,Link }from 'react-router'
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
     <Skills/>
     <Projects/>
     <Contact/>
+    <Footer/>
     </>
   )
 }

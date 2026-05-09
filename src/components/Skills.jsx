@@ -1,4 +1,6 @@
-const skills = [
+
+function Skills() {
+  const skills = [
   {
     title: "Frontend",
     items: ["React.js", "JavaScript (ES6+)", "HTML5", "CSS3", "Tailwind CSS", "SCSS"],
@@ -17,13 +19,12 @@ const skills = [
   },
 ];
 
-function Skills() {
   return (
     <section id="skills" className="py-20 px-6 bg-gray-200 ">
-      <div className="max-w-7xl mx-auto text-center">
+      <div className="max-w-7xl mx-auto text-center px-15">
         
-        <h2 className="text-5xl font-bold mb-12">
-          My <span className="text-blue-500">Skills</span>
+        <h2 className="text-4xl font-bold mb-12">
+          My <span className="text-blue-500 italic text-5xl">Skills</span>
         </h2>
 
         <div className="grid md:grid-cols-2 2xl:grid-cols-4 gap-20 text-white">

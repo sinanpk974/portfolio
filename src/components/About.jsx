@@ -8,12 +8,12 @@ function About() {
         
         
         <div>
-          <h2 className="text-5xl font-bold mb-6">
-            About <span className="text-blue-500">Me</span>
+          <h2 className="text-4xl font-bold mb-6">
+            About <span className="text-blue-500 italic text-5xl">Me</span>
           </h2>
 
           <p className="text-gray-300 mb-4 leading-relaxed text-xl">
-            I'm a passionate <span className="text-white font-semibold">MERN Stack Developer</span> 
+            I'm a passionate <span className="text-white font-semibold">MERN Stack Developer </span> 
              who enjoys building scalable, efficient, and user-friendly web applications. 
             I specialize in creating full-stack solutions using 
             <span className="text-white"> MongoDB, Express.js, React, and Node.js</span>.

@@ -1,4 +1,7 @@
-const projects = [
+
+
+export default function Projects() {
+  const projects = [
   {
     title: "Portfolio Website",
     desc: "A personal portfolio built using HTML, CSS, Bootstrap, and JavaScript — fully responsive and optimized for performance.",
@@ -36,15 +39,13 @@ const projects = [
     link: "#",
   },
 ];
-
-export default function Projects() {
   return (
     <section id="projects" className="bg-gray-900 py-16 px-6 ">
       <div className="max-w-6xl mx-auto">
 
         
-        <h2 className="text-3xl md:text-5xl font-bold text-center mb-14 text-white">
-          My <span className="text-blue-500">Projects</span>
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-14 text-white">
+          My <span className="text-blue-500 italic text-5xl">Projects</span>
         </h2>
 
       
@@ -62,7 +63,7 @@ export default function Projects() {
                 className="w-full h-60 object-cover"
               />
 
-              {/* Content */}
+              
               <div className="p-6 text-center">
                 <h3 className="text-2xl font-bold mb-2 text-blue-600">
                   {project.title}
