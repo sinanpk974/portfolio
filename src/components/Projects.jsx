@@ -41,11 +41,12 @@ export default function Projects() {
 ];
   return (
     <section id="projects" className="bg-gray-900 py-16 px-6 ">
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-5xl mx-auto">
 
         
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-14 text-white">
-          My <span className="text-blue-500 italic text-5xl">Projects</span>
+        <h2 className="text-3xl md:text-3xl font-bold text-center mb-14 text-white">
+          <span className="animate-pulse">
+          My </span><span className="text-blue-500 italic text-4xl">Projects</span>
         </h2>
 
       
@@ -65,11 +66,11 @@ export default function Projects() {
 
               
               <div className="p-6 text-center">
-                <h3 className="text-2xl font-bold mb-2 text-blue-600">
+                <h3 className="text-xl font-bold mb-2 text-blue-600">
                   {project.title}
                 </h3>
 
-                <p className="text-gray-800 text-xl mb-4 leading-relaxed">
+                <p className="text-gray-800 text-lg mb-4 leading-relaxed">
                   {project.desc}
                 </p>
 
@@ -77,7 +78,7 @@ export default function Projects() {
                   href={project.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block border border-gray-700 px-4 py-2 rounded hover:bg-blue-500 hover:border-blue-500 hover:text-white transition text-lg"
+                  className="inline-block border border-gray-700 px-4 py-1 rounded hover:bg-blue-500 hover:border-blue-500 hover:text-white transition text-lg"
                 >
                   View Project
                 </a>
