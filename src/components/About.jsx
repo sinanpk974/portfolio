@@ -2,63 +2,72 @@ function About() {
   return (
     <section
       id="about"
-      className="py-15 px-6 bg-gray-900 text-white"
+      className="py-14 px-6 bg-gray-900 text-white"
     >
-      <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-15 items-center">
+      <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
         
         
         <div>
-          <h2 className="text-3xl font-bold mb-6">
+          <h2 className="text-2xl md:text-3xl font-bold mb-5">
             <span className="animate-pulse">
-            About </span><span className="text-blue-500 italic text-4xl">Me</span>
+              About
+            </span>{" "}
+            <span className="text-blue-500 italic text-3xl md:text-4xl">
+              Me
+            </span>
           </h2>
 
-          <p className="text-gray-300 mb-4 leading-relaxed text-lg">
-            I'm a passionate <span className="text-white font-semibold">MERN Stack Developer </span> 
-             who enjoys building scalable, efficient, and user-friendly web applications. 
-            I specialize in creating full-stack solutions using 
-            <span className="text-white"> MongoDB, Express.js, React, and Node.js</span>.
+          <p className="text-gray-300 mb-4 leading-relaxed text-base md:text-lg">
+            I'm a passionate{" "}
+            <span className="text-white font-semibold">
+              MERN Stack Developer
+            </span>
+            who enjoys building scalable, efficient, and user-friendly web applications.
+            I specialize in creating full-stack solutions using
+            <span className="text-white">
+              {" "}MongoDB, Express.js, React, and Node.js
+            </span>.
           </p>
 
-          <p className="text-gray-300 mb-4 leading-relaxed text-lg">
-            I focus on writing clean, maintainable code and building seamless user experiences. 
-            From designing responsive frontends to developing robust backend APIs, 
+          <p className="text-gray-300 mb-4 leading-relaxed text-base md:text-lg">
+            I focus on writing clean, maintainable code and building seamless user experiences.
+            From designing responsive frontends to developing robust backend APIs,
             I love turning ideas into real-world applications.
           </p>
 
-          <p className="text-gray-300 leading-relaxed text-lg">
-            Currently, I’m improving my skills by working on real-world projects 
+          <p className="text-gray-300 leading-relaxed text-base md:text-lg">
+            Currently, I’m improving my skills by working on real-world projects
             and exploring modern technologies to become a better full-stack developer.
           </p>
 
           <a
             href="/resume.pdf"
-            className="inline-block mt-6 bg-blue-500 hover:bg-blue-600 px-6 py-2 rounded transition text-md"
+            className="inline-block mt-5 bg-blue-500 hover:bg-blue-600 px-5 py-2 rounded transition text-sm md:text-base"
           >
             Download Resume
           </a>
         </div>
 
         
-        <div className="grid grid-cols-2 gap-8">
-          <div className="bg-gray-800 p-5 rounded-lg text-center">
-            <h3 className="text-xl font-bold text-blue-500">10+</h3>
-            <p className="text-gray-300 text-lg">Projects Built</p>
+        <div className="grid grid-cols-2 gap-5">
+          <div className="bg-gray-800 p-4 rounded-lg text-center">
+            <h3 className="text-lg md:text-xl font-bold text-blue-500">10+</h3>
+            <p className="text-gray-300 text-sm md:text-base">Projects Built</p>
           </div>
 
-          <div className="bg-gray-800 p-5 rounded-lg text-center">
-            <h3 className="text-xl font-bold text-blue-500">MERN</h3>
-            <p className="text-gray-300 text-lg">Specialized Stack</p>
+          <div className="bg-gray-800 p-4 rounded-lg text-center">
+            <h3 className="text-lg md:text-xl font-bold text-blue-500">MERN</h3>
+            <p className="text-gray-300 text-sm md:text-base">Specialized Stack</p>
           </div>
 
-          <div className="bg-gray-800 p-5 rounded-lg text-center">
-            <h3 className="text-xl font-bold text-blue-500">Clean</h3>
-            <p className="text-gray-300 text-lg">Code Practice</p>
+          <div className="bg-gray-800 p-4 rounded-lg text-center">
+            <h3 className="text-lg md:text-xl font-bold text-blue-500">Clean</h3>
+            <p className="text-gray-300 text-sm md:text-base">Code Practice</p>
           </div>
 
-          <div className="bg-gray-800 p-5 rounded-lg text-center">
-            <h3 className="text-xl font-bold text-blue-500">Fast</h3>
-            <p className="text-gray-300 text-lg">Learning & Adapting</p>
+          <div className="bg-gray-800 p-4 rounded-lg text-center">
+            <h3 className="text-lg md:text-xl font-bold text-blue-500">Fast</h3>
+            <p className="text-gray-300 text-sm md:text-base">Learning & Adapting</p>
           </div>
         </div>
 
